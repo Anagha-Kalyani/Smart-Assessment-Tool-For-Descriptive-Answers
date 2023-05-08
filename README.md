@@ -12,12 +12,6 @@ Tokenizing text into words.
 Counting frequency of each word and identifying keywords based on their frequency.
 Removing duplicates from the word list.
 Since learners can explain answers in different ways, WordNet will be used to check synonyms, of the keywords from both learner’s response and answer key [5]. The evaluation is done based on four factors namely, similarity factor, keyword factor, grammar factor, keyword accuracy factor. Similarity score is calculated based on fuzzy logic and string matching [2]. Grammar is checked using language_tool_python library. The score is initially set to 0 and is incremented. The detailed report is displayed.
-The flowchart for the algorithm followed is shown in Figure 5.1.
+The flowchart for the algorithm followed is shown in the figure.
 
 ![image](https://user-images.githubusercontent.com/119789101/236781611-2c002f67-c6a6-4ac4-88d9-20bedd739672.png)
-
-Figure 5.1 - Algorithm flowchart
-
-The model uses Convolutional Neural Network (CNN) for text detection and a Long Short-Term Memory (LSTM) network for text recognition. The feature vector obtained after feature extraction is fed as input for the LSTM model [1].
-
-Convolutional Neural Network (CNN) - The main idea behind CNNs is to learn local patterns or features from the input image by applying convolutional filters over the input. These filters detect specific visual patterns such as edges, corners, and textures, which are then combined to form higher-level features. The convolutional filters are learned through backpropagation during training, allowing the network to learn the most relevant features for the given task.
